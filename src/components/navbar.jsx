@@ -30,7 +30,12 @@ export default function Flownavbar(){
       >
        <Link to="/">Home</Link>
       </Navbar.Link>
-      <Navbar.Link><Link to="/about">About</Link></Navbar.Link>
+      <Navbar.Link><Link to="/about">About
+      
+
+      
+      
+      </Link></Navbar.Link>
      
       
       
