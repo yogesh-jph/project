@@ -4,7 +4,7 @@ import Flowcrousal from "../components/crousal";
 import Ffooter from "../components/footer";
 
 
-export default function Home(props)
+export default function Home()
 {
     return(
         <>

@@ -52,14 +52,8 @@ export default function About()
         </div>
         <div class="mt-4 flex justify-between">
           <div className="align-middle">
-            <p class="text-sm font-medium text-gray-900">
-              <a href="#">
-                Amit Sanoria
-              </a>
-            </p>
-            <p class="text-sm font-medium text-gray-900">Actor</p>
-            <p class="text-sm font-medium text-gray-900">Director</p>
-            
+          <a href="https://www.bing.com/search?q=Amit+sanouria" target="_blank" rel="noreferrer" className="font-bold">AMIT SANOURIA</a>
+           <h5>Actor And Director</h5>
           </div>
          
         </div>
@@ -71,16 +65,10 @@ export default function About()
           <img src="fac2.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full"/>
         </div>
         <div class="mt-4 flex justify-between">
-          <div>
-            <h3 class="text-sm text-gray-700">
-              <a href="#">
-                <span aria-hidden="true" class="absolute inset-0"></span>
-                Basic Tee
-              </a>
-            </h3>
-            <p class="mt-1 text-sm text-gray-500">Black</p>
+        <div className="align-middle">
+        <a href="https://www.bing.com/search?q=shivam+dhall" target="_blank" rel="noreferrer" className="font-bold">Shivam Dhall</a>
+           <h5>Actor,Director And Writer</h5>
           </div>
-          <p class="text-sm font-medium text-gray-900">$35</p>
         </div>
       </div>
 
@@ -89,32 +77,20 @@ export default function About()
           <img src="fac3.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full"/>
         </div>
         <div class="mt-4 flex justify-between">
-          <div>
-            <h3 class="text-sm text-gray-700">
-              <a href="#">
-                <span aria-hidden="true" class="absolute inset-0"></span>
-                Basic Tee
-              </a>
-            </h3>
-            <p class="mt-1 text-sm text-gray-500">Black</p>
+        <div className="align-middle">
+        <a href="https://www.bing.com/search?q=Raja+subramaniyam" target="_blank" rel="noreferrer" className="font-bold">Raja Subramaniyam</a>
+           <h5>Actor And Director</h5>
           </div>
-          <p class="text-sm font-medium text-gray-900">$35</p>
         </div>
       </div> <div class="group relative">
         <div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
           <img src="fac4.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full"/>
         </div>
         <div class="mt-4 flex justify-between">
-          <div>
-            <h3 class="text-sm text-gray-700">
-              <a href="#">
-                <span aria-hidden="true" class="absolute inset-0"></span>
-                Basic Tee
-              </a>
-            </h3>
-            <p class="mt-1 text-sm text-gray-500">Black</p>
+        <div className="align-middle">
+          <p className="font-bold">Sarver Ali</p>
+           <h5>Actor And Director</h5>
           </div>
-          <p class="text-sm font-medium text-gray-900">$35</p>
         </div>
       </div>
 
@@ -123,16 +99,10 @@ export default function About()
           <img src="fac5.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full"/>
         </div>
         <div class="mt-4 flex justify-between">
-          <div>
-            <h3 class="text-sm text-gray-700">
-              <a href="#">
-                <span aria-hidden="true" class="absolute inset-0"></span>
-                Basic Tee
-              </a>
-            </h3>
-            <p class="mt-1 text-sm text-gray-500">Black</p>
+        <div className="align-middle">
+          <p className="font-bold">Divjot</p>
+           <h5>Actor</h5>
           </div>
-          <p class="text-sm font-medium text-gray-900">$35</p>
         </div>
       </div>
       <div class="group relative">
@@ -140,16 +110,10 @@ export default function About()
           <img src="fac6.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full"/>
         </div>
         <div class="mt-4 flex justify-between">
-          <div>
-            <h3 class="text-sm text-gray-700">
-              <a href="#">
-                <span aria-hidden="true" class="absolute inset-0"></span>
-                Basic Tee
-              </a>
-            </h3>
-            <p class="mt-1 text-sm text-gray-500">Black</p>
+        <div className="align-middle">
+          <p className="font-bold">Palak Joshi</p>
+           <h5>Makeup Artist</h5>
           </div>
-          <p class="text-sm font-medium text-gray-900">$35</p>
         </div>
       </div>
       <div class="group relative">
@@ -157,16 +121,10 @@ export default function About()
           <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full"/>
         </div>
         <div class="mt-4 flex justify-between">
-          <div>
-            <h3 class="text-sm text-gray-700">
-              <a href="#">
-                <span aria-hidden="true" class="absolute inset-0"></span>
-                Basic Tee
-              </a>
-            </h3>
-            <p class="mt-1 text-sm text-gray-500">Black</p>
+        <div className="align-middle">
+          <p className="font-bold">AMIT SANOURIA</p>
+           <h5>Actor And Director</h5>
           </div>
-          <p class="text-sm font-medium text-gray-900">$35</p>
         </div>
       </div>
       <div class="group relative">
@@ -174,16 +132,10 @@ export default function About()
           <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full"/>
         </div>
         <div class="mt-4 flex justify-between">
-          <div>
-            <h3 class="text-sm text-gray-700">
-              <a href="#">
-                <span aria-hidden="true" class="absolute inset-0"></span>
-                Basic Tee
-              </a>
-            </h3>
-            <p class="mt-1 text-sm text-gray-500">Black</p>
+        <div className="align-middle">
+          <p className="font-bold">AMIT SANOURIA</p>
+           <h5>Actor And Director</h5>
           </div>
-          <p class="text-sm font-medium text-gray-900">$35</p>
         </div>
       </div>
       <var> <div class="group relative">
@@ -191,16 +143,10 @@ export default function About()
           <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full"/>
         </div>
         <div class="mt-4 flex justify-between">
-          <div>
-            <h3 class="text-sm text-gray-700">
-              <a href="#">
-                <span aria-hidden="true" class="absolute inset-0"></span>
-                Basic Tee
-              </a>
-            </h3>
-            <p class="mt-1 text-sm text-gray-500">Black</p>
+        <div className="align-middle">
+          <p className="font-bold">AMIT SANOURIA</p>
+           <h5>Actor And Director</h5>
           </div>
-          <p class="text-sm font-medium text-gray-900">$35</p>
         </div>
       </div>
       </var>

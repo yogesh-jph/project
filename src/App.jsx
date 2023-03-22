@@ -8,6 +8,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/home'
 import About from './pages/about'
 import Contact from './pages/contact'
+import Academics from './pages/academics'
 
 import Flowcrousal from './components/crousal'
 import Ffooter from './components/footer'
@@ -42,14 +43,12 @@ function App() {
   
 
   <Routes>
-<Route path="/" element={<Home />}></Route>
+<Route path="/home" element={<Home />}></Route>
 <Route path="/about" element={<About />}></Route>
 <Route path="/contact" element={<Contact />}></Route>
 <Route path="/festivals" element={<Festivals />}></Route>
 <Route path="/facility" element={<Facility />}></Route>
-
-
-
+<Route path="/academics" element={<Academics />}></Route>
 
 
 </Routes>
@@ -70,11 +69,6 @@ function App() {
 
 </>
 
- 
-
-
-   
-   
   )
 }
 

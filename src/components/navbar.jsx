@@ -28,7 +28,7 @@ export default function Flownavbar(){
         href="/navbars"
         active={true}
       >
-       <Link to="/">Home</Link>
+       <Link to="/home">Home</Link>
       </Navbar.Link>
       <Navbar.Link><Link to="/about">About
       
@@ -43,20 +43,21 @@ export default function Flownavbar(){
      
         
         <Navbar.Link
-        href="/navbars"
-        active={true}
+       
       >
        <Link to="/facility">Facility</Link>
       </Navbar.Link>
       
       <Navbar.Link
-        href="/navbars"
-        active={true}
+       
       >
-       <Link to="/">Festivals</Link>
+       <Link to="/festivals">Festivals</Link>
       </Navbar.Link>
-      <Navbar.Link href="/navbars">
+      <Navbar.Link>
       <Link to="/contact">Contact</Link>
+      </Navbar.Link>
+      <Navbar.Link >
+      <Link to="/academics">Academics</Link>
       </Navbar.Link>
     </Navbar.Collapse>
     
