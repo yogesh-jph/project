@@ -1,19 +1,5 @@
 
 import { Table } from "flowbite-react";
-import Fcard from "../components/card";
-import Ncard from "../components/card1";
-import Ffooter from "../components/footer";
-import { motion } from "framer-motion";
-
-
-export const MyComponent = () => (
-  <motion.button
-    whileHover={{ scale: 1.1 }}
-    whileTap={{ scale: 0.9 }}
-  />
-)
-
-
 export default function About()
 {
     return(<>
@@ -26,7 +12,7 @@ export default function About()
 
 
 
-<div class="bg-white">
+<div class="bg-gray-100">
   
   
   <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -116,47 +102,11 @@ export default function About()
           </div>
         </div>
       </div>
-      <div class="group relative">
-        <div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
-          <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full"/>
-        </div>
-        <div class="mt-4 flex justify-between">
-        <div className="align-middle">
-          <p className="font-bold">AMIT SANOURIA</p>
-           <h5>Actor And Director</h5>
-          </div>
-        </div>
-      </div>
-      <div class="group relative">
-        <div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
-          <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full"/>
-        </div>
-        <div class="mt-4 flex justify-between">
-        <div className="align-middle">
-          <p className="font-bold">AMIT SANOURIA</p>
-           <h5>Actor And Director</h5>
-          </div>
-        </div>
-      </div>
-      <var> <div class="group relative">
-        <div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
-          <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full"/>
-        </div>
-        <div class="mt-4 flex justify-between">
-        <div className="align-middle">
-          <p className="font-bold">AMIT SANOURIA</p>
-           <h5>Actor And Director</h5>
-          </div>
-        </div>
-      </div>
-      </var>
-
-      
-
+    
     
     </div>
   </div>
-</div>
+
 
 <h2 class="text-2xl font-bold tracking-tight text-gray-900 mb-10">Notable Alumnis</h2>
 
@@ -168,14 +118,12 @@ export default function About()
       Name
     </Table.HeadCell>
     <Table.HeadCell>
-      duration
+      Year
     </Table.HeadCell>
     <Table.HeadCell>
       course
     </Table.HeadCell>
-    <Table.HeadCell>
-      Now working AS
-    </Table.HeadCell>
+   
     
   </Table.Head>
   <Table.Body className="divide-y">
@@ -184,14 +132,12 @@ export default function About()
         OM Puri
       </Table.Cell>
       <Table.Cell>
-        1967-70
+        1973
       </Table.Cell>
       <Table.Cell>
         MA-Acting
       </Table.Cell>
-      <Table.Cell>
-       actor,director
-      </Table.Cell>
+     
      
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
@@ -199,14 +145,12 @@ export default function About()
         Naseerudin Shah
       </Table.Cell>
       <Table.Cell>
-        1967-70
+        1973
       </Table.Cell>
       <Table.Cell>
       MA-Direction
       </Table.Cell>
-      <Table.Cell>
-      Actor,Director
-      </Table.Cell>
+    
      
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
@@ -214,180 +158,156 @@ export default function About()
         Ratna Pathak
       </Table.Cell>
       <Table.Cell>
-        1967-70
+        1981
       </Table.Cell>
       <Table.Cell>
        MA-Acting
       </Table.Cell>
-      <Table.Cell>
-      Actor
-      </Table.Cell>
+    
       
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
       <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-        Ratna Pathak
+      Om Shivpuri
       </Table.Cell>
       <Table.Cell>
-        1967-70
+        1963
       </Table.Cell>
       <Table.Cell>
        MA-Acting
       </Table.Cell>
-      <Table.Cell>
-      Actor
-      </Table.Cell>
+    
       
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
       <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-        Ratna Pathak
+       Raj Babbar
       </Table.Cell>
       <Table.Cell>
-        1967-70
+        1975
       </Table.Cell>
       <Table.Cell>
        MA-Acting
       </Table.Cell>
-      <Table.Cell>
-      Actor
-      </Table.Cell>
+      
       
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
       <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-        Ratna Pathak
+       Annu Kapoor
       </Table.Cell>
       <Table.Cell>
-        1967-70
+        1976
       </Table.Cell>
       <Table.Cell>
        MA-Acting
       </Table.Cell>
-      <Table.Cell>
-      Actor
-      </Table.Cell>
+     
       
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
       <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-        Ratna Pathak
+        Pankaj Kapoor
       </Table.Cell>
       <Table.Cell>
-        1967-70
+        1976
       </Table.Cell>
       <Table.Cell>
        MA-Acting
       </Table.Cell>
-      <Table.Cell>
-      Actor
+    
+    </Table.Row>
+    <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
+      <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
+        Satish Kaushik
       </Table.Cell>
+      <Table.Cell>
+        1978
+      </Table.Cell>
+      <Table.Cell>
+       MA-Direction
+      </Table.Cell>
+     
       
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
       <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-        Ratna Pathak
+       Anupam Kher
       </Table.Cell>
       <Table.Cell>
-        1967-70
+        1978
       </Table.Cell>
       <Table.Cell>
        MA-Acting
       </Table.Cell>
-      <Table.Cell>
-      Actor
-      </Table.Cell>
+    
       
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
       <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-        Ratna Pathak
+       Neena Gupta
       </Table.Cell>
       <Table.Cell>
-        1967-70
+        1980
       </Table.Cell>
       <Table.Cell>
        MA-Acting
       </Table.Cell>
-      <Table.Cell>
-      Actor
-      </Table.Cell>
+     
       
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
       <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-        Ratna Pathak
+        Piyush Mishra
       </Table.Cell>
       <Table.Cell>
-        1967-70
-      </Table.Cell>
-      <Table.Cell>
-       MA-Acting
-      </Table.Cell>
-      <Table.Cell>
-      Actor
-      </Table.Cell>
-      
-    </Table.Row>
-    <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-      <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-        Ratna Pathak
-      </Table.Cell>
-      <Table.Cell>
-        1967-70
+        1986
       </Table.Cell>
       <Table.Cell>
        MA-Acting
       </Table.Cell>
-      <Table.Cell>
-      Actor
-      </Table.Cell>
+    
       
     </Table.Row>  <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
       <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-        Ratna Pathak
+       Tigmanshu Dhulia
       </Table.Cell>
       <Table.Cell>
-        1967-70
+        1989
       </Table.Cell>
       <Table.Cell>
-       MA-Acting
+       MA-Direction
       </Table.Cell>
-      <Table.Cell>
-      Actor
-      </Table.Cell>
+   
       
     </Table.Row>  <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
       <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-        Ratna Pathak
+        Ashutosh Rana
       </Table.Cell>
       <Table.Cell>
-        1967-70
+        1994
       </Table.Cell>
       <Table.Cell>
        MA-Acting
       </Table.Cell>
-      <Table.Cell>
-      Actor
-      </Table.Cell>
+     
       
     </Table.Row>  <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
       <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-        Ratna Pathak
+        Pankaj Tripathi
       </Table.Cell>
       <Table.Cell>
-        1967-70
+        2004
       </Table.Cell>
       <Table.Cell>
        MA-Acting
       </Table.Cell>
-      <Table.Cell>
-      Actor
-      </Table.Cell>
+     
       
     </Table.Row>
   </Table.Body>
 </Table>
+</div>
 
 
         </>
