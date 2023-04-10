@@ -1,4 +1,4 @@
-
+ 
 export default function Log()
 {
     return(
@@ -12,7 +12,7 @@ export default function Log()
       <h2 class="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">Download Application Form</h2>
       
     </div>
-    <form class="mt-8 space-y-6" action="#" method="POST">
+    <form class="mt-8 space-y-6" action="connect.php" method="POST">
       <input type="hidden" name="remember" value="true"/>
       <div class="-space-y-px rounded-md shadow-sm">
       <div>
