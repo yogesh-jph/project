@@ -46,11 +46,9 @@ The THIRD YEAR syllabus aims at giving students advanced training in their area 
 </div>
 
 </div>
-<button type="button" class="font-medium text-indigo-600 hover:text-indigo-500">
-    <a href="/log"> Download Prospectus</a>
-                  
-                    
-                  </button>
+<button type="submit" class=" rounded-md bg-red-800 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+   <a href="/log"> Download Addmission From</a>
+ </button>
 
 
            </> 

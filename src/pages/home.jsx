@@ -11,6 +11,7 @@ export default function Home()
         
 
 <div class="relative isolate overflow-hidden bg-gray-100 px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+  
   <div class="absolute inset-0 -z-10 overflow-hidden">
     <svg class="absolute top-0 left-[max(50%,25rem)] h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]" aria-hidden="true">
       <defs>
@@ -28,8 +29,8 @@ export default function Home()
     <div class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
       <div class="lg:pr-4">
         <div class="lg:max-w-lg">
-          <p class="text-base font-semibold leading-7 text-indigo-600">About Us</p>
-          <h1 class="mt-2 text-3xl font-bold tracking-tight text-red-800 sm:text-4xl">A BETTER WORKFLOW</h1>
+          <p class=" font-bold leading-7 text-indigo-600">About Us</p>
+          <h1 class="mt-2 text-3xl font-bold tracking-tight text-red-800 sm:text-4xl">INCEPTION OF TOD</h1>
           <p class="mt-6 text-xl leading-8 text-gray-500 text-left dark:text-gray-400">The Opened Door were established in 2013 and have built an outstanding reputation as a renowned center of excellence offering the best possible facilities, exceptional training & Theatre and film productions.</p>
         </div>
       </div>

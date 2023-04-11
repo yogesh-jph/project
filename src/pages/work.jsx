@@ -7,7 +7,7 @@ export default function Work(props)
         <>
  
  <div class="bg-gray-100">
-<h2 class="text-2xl font-bold tracking-tight text-red-800 px-4 py-10 "><u>OUR WORK</u></h2>
+<h2 class="text-3xl font-bold tracking-tight text-red-800 px-4 py-10 "><u>OUR WORK</u></h2>
 
   <div class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
    

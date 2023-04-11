@@ -15,8 +15,8 @@ export default function About()
 <div class="bg-gray-100">
   
   
-  <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-    <h2 class="text-2xl font-bold tracking-tight text-gray-900">FACULTY MEMBERS</h2>
+  <div class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8" >
+    <h2 class="text-3xl font-bold tracking-tight text-gray-900">FACULTY MEMBERS</h2>
 
     <div class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
     <svg class="relative left-1/2 -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-40rem)] sm:h-[42.375rem]" viewBox="0 0 1155 678">
@@ -38,11 +38,11 @@ export default function About()
         </div>
         <div class="mt-4 flex justify-between">
           <div className="align-middle">
-          <a href="https://www.bing.com/search?q=Amit+sanouria" target="_blank" rel="noreferrer" className="font-bold">AMIT SANOURIA</a>
+          <a href="https://www.bing.com/search?q=Amit+sanouria" target="_blank" rel="noreferrer" className="font-bold   text-indigo-600 hover:text-indigo-500">AMIT SANOURIA</a>
            <h5>Actor And Director</h5>
           </div>
          
-        </div>
+        </div> 
       </div>
       
 
@@ -52,7 +52,7 @@ export default function About()
         </div>
         <div class="mt-4 flex justify-between">
         <div className="align-middle">
-        <a href="https://www.bing.com/search?q=shivam+dhall" target="_blank" rel="noreferrer" className="font-bold">Shivam Dhall</a>
+        <a href="https://www.bing.com/search?q=shivam+dhall" target="_blank" rel="noreferrer" className="font-bold  text-indigo-600 hover:text-indigo-500">Shivam Dhall</a>
            <h5>Actor,Director And Writer</h5>
           </div>
         </div>
@@ -64,7 +64,7 @@ export default function About()
         </div>
         <div class="mt-4 flex justify-between">
         <div className="align-middle">
-        <a href="https://www.bing.com/search?q=Raja+subramaniyam" target="_blank" rel="noreferrer" className="font-bold">Raja Subramaniyam</a>
+        <a href="https://www.bing.com/search?q=Raja+subramaniyam" target="_blank" rel="noreferrer" className="font-bold   text-indigo-600 hover:text-indigo-500">Raja Subramaniyam</a>
            <h5>Actor And Director</h5>
           </div>
         </div>
@@ -74,7 +74,7 @@ export default function About()
         </div>
         <div class="mt-4 flex justify-between">
         <div className="align-middle">
-          <p className="font-bold">Sarver Ali</p>
+          <p className="font-bold   text-indigo-600 hover:text-indigo-500">Sarver Ali</p>
            <h5>Actor And Director</h5>
           </div>
         </div>
@@ -86,7 +86,7 @@ export default function About()
         </div>
         <div class="mt-4 flex justify-between">
         <div className="align-middle">
-          <p className="font-bold">Divjot</p>
+          <p className="font-bold   text-indigo-600 hover:text-indigo-500">Divjot</p>
            <h5>Actor</h5>
           </div>
         </div>
@@ -97,7 +97,7 @@ export default function About()
         </div>
         <div class="mt-4 flex justify-between">
         <div className="align-middle">
-          <p className="font-bold">Palak Joshi</p>
+          <p className="font-bold   text-indigo-600 hover:text-indigo-500">Palak Joshi</p>
            <h5>Makeup Artist</h5>
           </div>
         </div>
@@ -114,6 +114,9 @@ export default function About()
 
         <Table>
   <Table.Head>
+  <Table.HeadCell>
+     S.no
+    </Table.HeadCell>
     <Table.HeadCell>
       Name
     </Table.HeadCell>
@@ -126,10 +129,13 @@ export default function About()
    
     
   </Table.Head>
-  <Table.Body className="divide-y">
-    <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-      <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-        OM Puri
+  <Table.Body className="divide-y ">
+    <Table.Row className="bg-white  dark:border-gray-700 dark:bg-gray-800">
+    <Table.Cell>
+       1
+      </Table.Cell>
+      <Table.Cell className="whitespace-nowrap font-medium  text-indigo-600 hover:text-indigo-500">
+       <a href="https://en.wikipedia.org/wiki/Om_Puri">OM Puri</a> 
       </Table.Cell>
       <Table.Cell>
         1973
@@ -141,8 +147,11 @@ export default function About()
      
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-      <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-        Naseerudin Shah
+    <Table.Cell>
+       2
+      </Table.Cell>
+      <Table.Cell className="whitespace-nowrap font-medium  text-indigo-600 hover:text-indigo-500">
+       <a href="https://en.wikipedia.org/wiki/Naseeruddin_Shah"> Naseerudin Shah</a>
       </Table.Cell>
       <Table.Cell>
         1973
@@ -154,8 +163,11 @@ export default function About()
      
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-      <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-        Ratna Pathak
+    <Table.Cell>
+       3
+      </Table.Cell>
+      <Table.Cell className="whitespace-nowrap font-medium  text-indigo-600 hover:text-indigo-500">
+       <a href="https://en.wikipedia.org/wiki/Ratna_Pathak_Shah">Ratna Pathak</a> 
       </Table.Cell>
       <Table.Cell>
         1981
@@ -167,8 +179,11 @@ export default function About()
       
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-      <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-      Om Shivpuri
+    <Table.Cell>
+       4
+      </Table.Cell>
+      <Table.Cell className="whitespace-nowrap font-medium  text-indigo-600 hover:text-indigo-500">
+      <a href="https://en.wikipedia.org/wiki/Om_Shivpuri">Om Shivpuri</a>
       </Table.Cell>
       <Table.Cell>
         1963
@@ -180,8 +195,11 @@ export default function About()
       
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-      <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-       Raj Babbar
+    <Table.Cell>
+       5
+      </Table.Cell>
+      <Table.Cell className="whitespace-nowrap font-medium  text-indigo-600 hover:text-indigo-500">
+      <a href="https://en.wikipedia.org/wiki/Raj_Babbar">Raj Babbar</a>
       </Table.Cell>
       <Table.Cell>
         1975
@@ -193,8 +211,11 @@ export default function About()
       
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-      <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-       Annu Kapoor
+    <Table.Cell>
+       6
+      </Table.Cell>
+      <Table.Cell className="whitespace-nowrap font-medium  text-indigo-600 hover:text-indigo-500">
+      <a href="https://en.wikipedia.org/wiki/Annu_Kapoor">Annu Kapoor</a>
       </Table.Cell>
       <Table.Cell>
         1976
@@ -206,8 +227,11 @@ export default function About()
       
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-      <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-        Pankaj Kapoor
+    <Table.Cell>
+       7
+      </Table.Cell>
+      <Table.Cell className="whitespace-nowrap font-medium  text-indigo-600 hover:text-indigo-500">
+        <a href="https://en.wikipedia.org/wiki/Pankaj_Kapur">Pankaj Kapoor</a>
       </Table.Cell>
       <Table.Cell>
         1976
@@ -218,8 +242,11 @@ export default function About()
     
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-      <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-        Satish Kaushik
+    <Table.Cell>
+       8
+      </Table.Cell>
+      <Table.Cell className="whitespace-nowrap font-medium  text-indigo-600 hover:text-indigo-500">
+        <a href="https://en.wikipedia.org/wiki/Satish_Kaushik">Satish Kaushik</a>
       </Table.Cell>
       <Table.Cell>
         1978
@@ -231,7 +258,10 @@ export default function About()
       
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-      <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
+    <Table.Cell>
+       9
+      </Table.Cell>
+      <Table.Cell className="whitespace-nowrap font-medium  text-indigo-600 hover:text-indigo-500">
        Anupam Kher
       </Table.Cell>
       <Table.Cell>
@@ -244,7 +274,10 @@ export default function About()
       
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-      <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
+    <Table.Cell>
+       10
+      </Table.Cell>
+      <Table.Cell className="whitespace-nowrap font-medium  text-indigo-600 hover:text-indigo-500">
        Neena Gupta
       </Table.Cell>
       <Table.Cell>
@@ -257,7 +290,10 @@ export default function About()
       
     </Table.Row>
     <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-      <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
+    <Table.Cell>
+       11
+      </Table.Cell>
+      <Table.Cell className="whitespace-nowrap font-medium  text-indigo-600 hover:text-indigo-500">
         Piyush Mishra
       </Table.Cell>
       <Table.Cell>
@@ -269,7 +305,10 @@ export default function About()
     
       
     </Table.Row>  <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-      <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
+    <Table.Cell>
+       12
+      </Table.Cell>
+      <Table.Cell className="whitespace-nowrap font-medium  text-indigo-600 hover:text-indigo-500">
        Tigmanshu Dhulia
       </Table.Cell>
       <Table.Cell>
@@ -281,7 +320,10 @@ export default function About()
    
       
     </Table.Row>  <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-      <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
+    <Table.Cell>
+       13
+      </Table.Cell>
+      <Table.Cell className="whitespace-nowrap font-medium  text-indigo-600 hover:text-indigo-500">
         Ashutosh Rana
       </Table.Cell>
       <Table.Cell>
@@ -293,7 +335,10 @@ export default function About()
      
       
     </Table.Row>  <Table.Row className="bg-white dark:border-gray-700 dark:bg-gray-800">
-      <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
+    <Table.Cell>
+       14
+      </Table.Cell>
+      <Table.Cell className="whitespace-nowrap font-medium  text-indigo-600 hover:text-indigo-500">
         Pankaj Tripathi
       </Table.Cell>
       <Table.Cell>
