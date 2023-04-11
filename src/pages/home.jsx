@@ -30,17 +30,17 @@ export default function Home()
         <div class="lg:max-w-lg">
           <p class="text-base font-semibold leading-7 text-indigo-600">About Us</p>
           <h1 class="mt-2 text-3xl font-bold tracking-tight text-red-800 sm:text-4xl">A BETTER WORKFLOW</h1>
-          <p class="mt-6 text-xl leading-8 text-gray-500 text-left dark:text-gray-400">Satvik Arts were established in 2013 and have built an outstanding reputation as a renowned center of excellence offering the best possible facilities, exceptional training & Theatre and film productions.</p>
+          <p class="mt-6 text-xl leading-8 text-gray-500 text-left dark:text-gray-400">The Opened Door were established in 2013 and have built an outstanding reputation as a renowned center of excellence offering the best possible facilities, exceptional training & Theatre and film productions.</p>
         </div>
       </div>
     </div>
     <div class="-mt-6 -ml-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-      <img class="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" src="home1.jpeg" alt=""/>
+      <img class="w-[48rem] max-w-none transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0" src="home1.jpeg" alt=""/>
     </div>
     <div class="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
       <div class="lg:pr-4">
         <div class="mt-6 text-xl leading-8 text-gray-500 text-left dark:text-gray-400 ">
-          <p> Satvik  Arts pride itself both on the professional standards and its Theatre and Film productions. Among many things which are distinctive to Satvik Arts is the extraordinary level of personalization throughout the training/workshops – the skill of highly experienced specialists are harnessed in providing training tailored to the needs of each individual.</p>
+          <p>Opened Door pride itself both on the professional standards and its Theatre and Film productions. Among many things which are distinctive to Opened Door is the extraordinary level of personalization throughout the training/workshops – the skill of highly experienced specialists are harnessed in providing training tailored to the needs of each individual.</p>
 
 SATVIK, meaning pure, true is one of the four forms of acting or Abhinaya mentioned in a shlok of Natyashastra-
           <ul role="list" class="mt-8 space-y-8 text-gray-600">
@@ -64,7 +64,7 @@ SATVIK, meaning pure, true is one of the four forms of acting or Abhinaya mentio
               <span><strong class="font-semibold text-red-800">Aharya Abhinaya</strong> communication through costume, stage properties, among others.</span>
             </li>
           </ul>
-          <p class="mt-8  text-gray-500 dark:text-gray-400">Keeping in view the much-needed understanding of the involvement of the inner sanctum, the founders and directors decided over this identity for the society, and have always worked in the very direction and have trained the members and students of the society in the same way, hence justifying the very thought of it-<b>SATVIK ARTS.</b></p>
+          <p class="mt-8  text-gray-500 dark:text-gray-400">Keeping in view the much-needed understanding of the involvement of the inner sanctum, the founders and directors decided over this identity for the society, and have always worked in the very direction and have trained the members and students of the society in the same way, hence justifying the very thought of it-<b>The Opened Door.</b></p>
         
           
         </div>

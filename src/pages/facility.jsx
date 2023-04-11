@@ -3,6 +3,8 @@ export default function Facility()
 {
     return(
         <>
+
+<h2 class="text-2xl font-bold tracking-tight text-red-800 mt-10 "><u>What We Provide</u></h2>
         
 
         <p class="text-left text-gray-500 dark:text-gray-400 mt-7 ml-10   mr-10"><b className="text-red-800">Workshops</b> - In recent years, NSD under its Extension Programme organized a series of theatre workshops in the North Eastern States. The workshops proceeded on the basis of a 3-step programme – the first was to arouse interest amongst all participants about the intricacies of the theatre experience – performance and transference; the second was to impart training in the area and the third was to help and guide them to prepare productions on the basis of the received training. The first Poorvottar Natya Samaroh was organized in Guwahati in 2007 and the second at Gangtok, Sikkim in 2008.
