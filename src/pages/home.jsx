@@ -1,5 +1,4 @@
 
-import Fcard from "../components/card";
 import Flowcrousal from "../components/crousal";
 import Ffooter from "../components/footer";
 
@@ -100,10 +99,10 @@ SATVIK, meaning pure, true is one of the four forms of acting or Abhinaya mentio
           <h3 class="mt-6 text-sm text-gray-500">
             <a href="Work">
               <span class="absolute inset-0"></span>
-              street plays
+              Street plays
             </a>
           </h3>
-          <p class="text-base font-semibold text-gray-900">social issues</p>
+          <p class="text-base font-semibold text-gray-900">Social issues</p>
         </div>
 
         <div class="group relative">

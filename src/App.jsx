@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import Flownavbar from './components/navbar'
 
-import Fcard from './components/card'
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/home'
 import About from './pages/about'
