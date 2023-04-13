@@ -9,7 +9,7 @@ export default function Flownavbar(){
     return(
         <>
 
-<div className="md-4">
+<div className="md-4 ">
 <Navbar
     fluid={true}
     rounded={true}
