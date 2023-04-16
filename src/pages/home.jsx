@@ -30,7 +30,7 @@ export default function Home()
         <div class="lg:max-w-lg">
           <p class=" font-bold leading-7 text-indigo-600">About Us</p>
           <h1 class="mt-2 text-3xl font-bold tracking-tight text-red-800 sm:text-4xl">INCEPTION OF TOD</h1>
-          <p class="mt-6 text-xl leading-8 text-gray-500 text-left dark:text-gray-400">The Opened Door were established in 2013 and have built an outstanding reputation as a renowned center of excellence offering the best possible facilities, exceptional training & Theatre and film productions.</p>
+          <p class="mt-6 text-xl leading-8 text-gray-500 text-left dark:text-gray-400">The Opened Door were established in 1960 and have built an outstanding reputation as a renowned center of excellence offering the best possible facilities, exceptional training & Theatre and film productions.</p>
         </div>
       </div>
     </div>

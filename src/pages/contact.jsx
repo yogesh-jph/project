@@ -11,7 +11,7 @@ export default function Contact()
     <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">CONTACT US</h2>
     <p class="mt-2 text-lg leading-8 text-gray-600"></p>
   </div>
-  <form action="#" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
+  <form action="https://formsubmit.co/79bc3dce2637b9d583fa70132c323590" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
     <div class="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
       <div>
         <label for="first-name" class="block text-sm font-semibold leading-6 text-white">First name</label>
